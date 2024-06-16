@@ -41,4 +41,32 @@ print(10 - 6)
 print(5 * 8)
 print(10 / 2)
 print(20 % 3)
+print(5 + 5)
+print("1" + "2" + "です")
+
+
+//条件分岐(if)
+//Swiftでは、変数、関数をつけるときはキャメルケース
+var myScore: Int = 85
+
+if 80 <= myScore {
+    print("合格")
+}else {
+    print("不合格")
+}
+
+//Xの誕生日の時に「おめでとう」の通知が飛ぶシステム
+var today: Int = 15
+let birthday: Int = 0219
+
+if today == birthday {
+    print("誕生日おめでとう")
+} else {
+    print("今日は\(today)なので、あなたの誕生日ではない")
+}
+
+//\(today)は変数の組み込み
+
+
+
 
