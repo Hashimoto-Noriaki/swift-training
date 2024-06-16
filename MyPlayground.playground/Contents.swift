@@ -87,3 +87,11 @@ func callMyPetName(_ name: String){
 
 callMyPetName("ポチ")
 callMyPetName("たま")
+
+
+//戻り値　返り値
+func callMyName(name: String) -> String {
+    return name + "!"
+}
+
+print(callMyName(name:"のりあき"))
