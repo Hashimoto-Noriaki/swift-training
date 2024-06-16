@@ -95,3 +95,7 @@ func callMyName(name: String) -> String {
 }
 
 print(callMyName(name:"のりあき"))
+
+//配列
+var animal = ["犬","猫","猿","リス"]
+print(animal[2])
