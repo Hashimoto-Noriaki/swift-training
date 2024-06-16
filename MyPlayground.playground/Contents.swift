@@ -34,5 +34,11 @@ var bool: Bool = false
 //Swiftには自動で型推論がある
 
 
-
+//演算
+//+ - * / %
+print(10 + 5)
+print(10 - 6)
+print(5 * 8)
+print(10 / 2)
+print(20 % 3)
 
