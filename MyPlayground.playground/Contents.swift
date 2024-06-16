@@ -99,3 +99,21 @@ print(callMyName(name:"のりあき"))
 //配列
 var animal = ["犬","猫","猿","リス"]
 print(animal[2])
+
+//for文(ループ、繰り返し処理)
+//print(1)
+//print(2)
+//print(3)
+//print(4)
+//print(5)
+//print(6)
+//print(7)
+//print(8)
+//print(9)
+//print(10)
+
+for i in 1...10{
+    print(i)
+}
+
+
