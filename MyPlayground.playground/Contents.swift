@@ -13,3 +13,26 @@ print(name)
 let age = 28
 let tax = 1.1
 let year = 2024
+
+
+//データ型
+
+//String型(文字列)
+var str:String = "これは文字列"
+
+//Int型(整数)
+var int: Int = 1
+
+//Float型/Double型 少数  扱えるデータ量の違い
+var float: Float = 1.23456789
+var double: Double = 1.23456789
+
+//bool型(真偽値)
+//var bool: Bool = true
+var bool: Bool = false
+
+//Swiftには自動で型推論がある
+
+
+
+
