@@ -69,4 +69,21 @@ if today == birthday {
 
 
 
+//関数
+//処理をまとめることができるもの
+//func callMyPetName(){
+//    print("ポチ")
+//    print("ちび")
+//}
+//
+////呼び出し
+//callMyPetName()
 
+//引数
+//引数でデータを変更できる
+func callMyPetName(_ name: String){
+    print("\(name)!")
+}
+
+callMyPetName("ポチ")
+callMyPetName("たま")
