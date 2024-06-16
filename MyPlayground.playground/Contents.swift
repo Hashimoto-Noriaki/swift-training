@@ -116,4 +116,35 @@ for i in 1...10{
     print(i)
 }
 
+// クラスとインスタンス
+// クラスが設計書　この設計書をベースに複製
+// Instagramを例にする
+// このクラスが設計書
+class Instagram {
+    var userId: String!
+    var date: Int!
+    var content: String!
+    var image: String!  // 画像のURLなど
 
+    func post() {
+        print("UserID: \(userId!)")
+        print("日付: \(date!)")
+        print("投稿内容: \(content!)")
+        print("画像: \(image!)")
+    }
+}
+
+// 複製
+let postData1 = Instagram()
+postData1.userId = "@My_Instagram_ID"
+postData1.date = 15
+postData1.content = "新しいカフェに行ったよ"
+postData1.image = "cafe_image_url"
+postData1.post()
+
+let postData2 = Instagram()
+postData2.userId = "@nature_lover"
+postData2.date = 200
+postData2.content = "ハイキングの写真"
+postData2.image = "hiking_image_url"
+postData2.post()
